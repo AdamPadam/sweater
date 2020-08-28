@@ -4,6 +4,7 @@
 <@c.page>
     <div>
         <@l.logout/>
+        <span><a href="/user">User List</a></span>
     </div>
     <div>
         <form method="post">
@@ -26,7 +27,5 @@
             <strong>${message.authorName}</strong>
         </div>
 
-    <#else>
-        No message
     </#list>
 </@c.page>
